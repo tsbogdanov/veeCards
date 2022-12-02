@@ -1,0 +1,46 @@
+html {
+	display: flex;
+	margin: 0px;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Poppins';
+	color: #ffffff;
+	background-color: #808080;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	background-color: #7a7a7a;
+	width: 300px;
+	border-radius: 8px;
+	box-shadow: 5px 5px 10px #595959;
+}
+
+.name {
+	font-weight: bold;
+	font-size: 18px;
+	color: #abd039;
+}
+
+.profpic {
+	width: 96px;
+	height: 96px;
+	border-radius: 50%;
+}
+
+.qr-container {
+	margin: 24px;
+	display: flex;
+	justify-content: center;
+}
+
+.qr {
+	border-radius: 6px;
+	width: 50%;
+	height: 50%;
+}
+
+.title {
+}
