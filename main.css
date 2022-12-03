@@ -4,7 +4,7 @@ html, body {
 	align-items: center;
 	justify-content: space-evenly;
 	font-family: 'Poppins';
-	height: 100vh;
+	height: 90vh;
 	width: 100vw;
 	color: #ffffff;
 	background-color: #808080;
@@ -45,4 +45,5 @@ html, body {
 .details {
 	font-size: 2.5em;
 	color: #ffffff;
+	text-decoration: none;
 }
