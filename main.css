@@ -1,23 +1,23 @@
-html {
+html, body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-evenly;
 	font-family: 'Poppins';
-	height: 90vh;
+	height: 100vh;
 	width: 100vw;
 	color: #ffffff;
 	background-color: #292c32;
 }
 
-body {
+.container {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-evenly;
 	background-color: #33363c;
 	box-shadow: 10px 10px 25px #00000030;
-	height: 65%;
+	height: 50%;
 	width: 90%;
 	border-radius: 6%;
 }
@@ -44,7 +44,7 @@ body {
 .qr {
 	box-shadow: 10px 10px 10px #00000030;
 	border-radius: 6%;
-	width: 60%;
+	width: 50%;
 }
 
 .card {
