@@ -1,4 +1,4 @@
-html, body {
+html {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -7,7 +7,19 @@ html, body {
 	height: 90vh;
 	width: 100vw;
 	color: #ffffff;
-	background-color: #808080;
+	background-color: #292c32;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	background-color: #33363c;
+	box-shadow: 10px 10px 25px #00000030;
+	height: 65%;
+	width: 90%;
+	border-radius: 6%;
 }
 
 .name {
@@ -18,6 +30,7 @@ html, body {
 }
 
 .profpic {
+	box-shadow: 10px 10px 10px #00000030;
 	width: 50%;
 	border-radius: 50%;
 }
@@ -29,6 +42,7 @@ html, body {
 }
 
 .qr {
+	box-shadow: 10px 10px 10px #00000030;
 	border-radius: 6%;
 	width: 60%;
 }
@@ -43,6 +57,7 @@ html, body {
 }
 
 .details {
+	margin: 5%;
 	font-size: 2.5em;
 	color: #ffffff;
 	text-decoration: none;
