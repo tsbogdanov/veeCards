@@ -5,6 +5,7 @@ html, body {
 	justify-content: space-evenly;
 	font-family: 'Poppins';
 	height: 100vh;
+	min-height: -webkit-fill-available;
 	width: 100vw;
 	color: #ffffff;
 	background-color: #292c32;
@@ -20,6 +21,7 @@ html, body {
 	height: 50%;
 	width: 90%;
 	border-radius: 6%;
+	max-width: fit-content;
 }
 
 .name {
