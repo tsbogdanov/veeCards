@@ -5,7 +5,7 @@ html, body {
 	justify-content: space-evenly;
 	font-family: 'Poppins';
 	height: 100vh;
-	min-height: -webkit-fill-available;
+	height: calc(var(--vh, 1vh) * 100);
 	width: 100vw;
 	color: #ffffff;
 	background-color: #292c32;
