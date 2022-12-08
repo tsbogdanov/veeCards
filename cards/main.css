@@ -11,6 +11,16 @@ html, body {
 	color: #ffffff;
 }
 
+body {
+	min-height: 100vh;
+	/* mobile viewport bug fix */
+	min-height: -webkit-fill-available;
+  }
+
+  html {
+	height: -webkit-fill-available;
+  }
+
 .flex-container {
 	display: flex;
 	justify-content: center;
