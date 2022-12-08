@@ -1,20 +1,23 @@
-html, body {
+:root {
+	--doc-height: 100%;
+}
+
+html,
+body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
-	width: 100vw;
 	margin: 0;
+	height: 100vh; /* fallback for Js load */
+	height: var(--doc-height);
+	width: 100vw;
 	background-color: #292c32;
 	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
 	color: #ffffff;
 }
 
-body {
-	height: 100vh; /* Fallback for browsers that do not support Custom Properties */
-	height: calc(var(--vh, 1vh) * 100);
-}
 
 .flex-container {
 	display: flex;
