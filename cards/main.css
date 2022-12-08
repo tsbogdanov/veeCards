@@ -26,7 +26,6 @@ html, body {
 	align-items: center;
 	border-radius: 1em;
 	gap: 32px;
-	padding: 16px;
 	max-width: 350px;
 }
 
@@ -40,6 +39,8 @@ html, body {
 
 .profile {
 	margin-top: 20%;
+	margin-left: 5%;
+	margin-right: 5%;
 	text-align: center;
 }
 
