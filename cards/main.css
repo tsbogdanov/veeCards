@@ -27,6 +27,7 @@ html, body {
 	border-radius: 1em;
 	gap: 32px;
 	padding: 16px;
+	max-width: 350px;
 }
 
 .profile-photo {
