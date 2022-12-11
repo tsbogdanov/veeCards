@@ -3,78 +3,55 @@ html, body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
-	width: 100vw;
 	margin: 0;
+	height: 100vh;
+	height: var(--doc-height);
+	width: 100vw;
 	background-color: #292c32;
 	font-family: "Poppins";
 	color: #ffffff;
 }
 
-a {
-	color: white;
-	text-decoration: none;
-	font-size: 1.5em;
-}
-
 .directory {
 	display: flex;
-	flex-direction: column;
+	flex-wrap: wrap;
 }
 
-
-
-.flex-container {
-	display: flex;
-	justify-content: center;
-	width: 90%;
+ul {
+	padding: 0;
 }
 
-.card {
-	background-color: #33363c;
-	box-shadow: 10px 10px 25px #00000030;
-	flex: 1 1 0%;
+.contact {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	border-radius: 1em;
-	gap: 32px;
+	margin: 16px;
 }
 
-.profile-photo {
+.contact a {
+	color: white;
+	text-decoration: none;
+	font-size: 1.5em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.contact img {
+	display: flex;
+	align-items: center;
 	border-radius: 50%;
-	box-shadow: 10px 10px 25px #00000030;
-	width: 40%;
-	margin: -20%;
-}
-
-.profile {
-	margin-top: 20%;
-	text-align: center;
-}
-
-.profile h1, h2 {
-	margin: 0;
+	width: 128px;
+	height: 128px;
 }
 
 h1 {
 	color: #abd039;
-	font-size: 5em;
+	font-size: 3em;
+	font-weight: 700;
 }
 
 h2 {
-	font-size: 3em;
+	font-size: 2em;
 }
 
-.details {
-	list-style-type: none;
-	padding-left: 0;
-	font-size: 3em;
-}
-
-.qr {
-	width: 40%;
-	border-radius: 8%;
-	box-shadow: 10px 10px 25px #00000030;
-	margin-bottom: -20%;
-}

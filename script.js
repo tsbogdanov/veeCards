@@ -1,11 +1,47 @@
-// First we get the viewport height and we multiple it by 1% to get a value for a vh unit
-let vh = window.innerHeight * 0.01;
-// Then we set the value in the --vh custom property to the root of the document
-document.documentElement.style.setProperty('--vh', `${vh}px`);
+const documentHeight = () => {
+	const doc = document.documentElement
+	doc.style.setProperty('--doc-height', `${window.innerHeight}px`)
+}
 
-// We listen to the resize event
-window.addEventListener('resize', () => {
-  // We execute the same script as before
-  let vh = window.innerHeight * 0.01;
-  document.documentElement.style.setProperty('--vh', `${vh}px`);
-});
+window.addEventListener('resize', documentHeight);
+documentHeight();
+
+let contacts = [
+	{
+		'fname': 'ben',
+		'lname': 'sosinski',
+		'name': 'Ben Sosinski',
+		'title': 'VP',
+		'email': 'ben.sosinski@embodee.com',
+		'link': 'www.embodee.com'
+	},
+	{
+		'fname': 'isabel',
+		'lname': 'morales',
+		'name': 'Isabel Morales',
+		'title': 'Marketing',
+		'email': 'marketing@embodee.com',
+		'link': 'www.embodee.com'
+	},
+	{
+		'fname': 'sina',
+		'lname': 'wolper',
+		'name': 'Sina Wolper',
+		'title': 'Useless Genius',
+		'email': 'sina.wolper@embodee.com',
+		'link': 'www.embodee.com'
+	},
+];
+
+let rolodex = document.getElementById('directory');
+
+function init() {
+	for(i = 0; i < contacts.length; i++) {
+		let contact = document.createElement('li');
+		contact.setAttribute('id', contacts[i].fname);
+		contact.setAttribute('class', 'contact');
+		contact.innerHTML = `<a href='cards/${contacts[i].fname}.html'><img src='images/profile-pictures/${contacts[i].fname}.png'>${contacts[i].name}</a>`;
+		rolodex.appendChild(contact);
+	}
+}
+init();
