@@ -8,6 +8,14 @@ documentHeight();
 
 let contacts = [
 	{
+		'fname': 'andre',
+		'lname': 'wolper',
+		'name': 'André Wolper',
+		'title': 'CEO',
+		'email': 'andre.wolper@embodee.com',
+		'link': 'www.embodee.com'
+	},
+	{
 		'fname': 'ben',
 		'lname': 'sosinski',
 		'name': 'Ben Sosinski',

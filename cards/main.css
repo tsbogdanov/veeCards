@@ -82,6 +82,15 @@ h2 {
 	margin-top: 0;
 }
 
+li {
+	display: flex;
+}
+
+.icon {
+	width: 1em;
+	margin-right: 8px;
+}
+
 .qr {
 	width: 40%;
 	border-radius: 8%;
