@@ -31,14 +31,6 @@ let contacts = [
 		'email': 'marketing@embodee.com',
 		'link': 'www.embodee.com'
 	},
-	{
-		'fname': 'sina',
-		'lname': 'wolper',
-		'name': 'Sina Wolper',
-		'title': 'Useless Genius',
-		'email': 'sina.wolper@embodee.com',
-		'link': 'www.embodee.com'
-	},
 ];
 
 let rolodex = document.getElementById('directory');
