@@ -24,6 +24,14 @@ let contacts = [
 		'link': 'www.embodee.com'
 	},
 	{
+		'fname': 'indika',
+		'lname': 'mendes',
+		'name': 'Indika Mendes',
+		'title': 'Customer Success',
+		'email': 'indika.mendes@embodee.com',
+		'link': 'www.embodee.com'
+	},
+	{
 		'fname': 'ben',
 		'lname': 'sosinski',
 		'name': 'Ben Sosinski',
