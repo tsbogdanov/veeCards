@@ -48,7 +48,7 @@ function init() {
 		let contact = document.createElement('li');
 		contact.setAttribute('id', contacts[i].fname);
 		contact.setAttribute('class', 'contact');
-		contact.innerHTML = `<a href='cards/${contacts[i].fname}.html'><img src='images/profile-pictures/${contacts[i].fname}.png'>${contacts[i].name}</a>`;
+		contact.innerHTML = `<a href='cards/${contacts[i].fname}.html'><img src='images/profile-pictures/${contacts[i].fname}.webp'>${contacts[i].name}</a>`;
 		rolodex.appendChild(contact);
 	}
 }
