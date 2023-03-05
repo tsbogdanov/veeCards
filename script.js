@@ -16,6 +16,14 @@ let contacts = [
 		'link': 'www.embodee.com'
 	},
 	{
+		'fname': 'chandi',
+		'lname': 'rambukpotha',
+		'name': 'Chandi Rambukpotha',
+		'title': 'Managing Director, Embodee Asia',
+		'email': 'chandi.rambukpotha@embodee.com',
+		'link': 'www.embodee.com'
+	},
+	{
 		'fname': 'ben',
 		'lname': 'sosinski',
 		'name': 'Ben Sosinski',
